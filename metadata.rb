@@ -4,8 +4,13 @@ maintainer_email 'you@example.com'
 license 'All Rights Reserved'
 description 'Installs/Configures sp_lab_build'
 long_description 'Installs/Configures sp_lab_build'
-version '0.1.0'
+version '0.8.1'
 chef_version '>= 12.1' if respond_to?(:chef_version)
+
+depends 'win_ad'
+depends 'powershell'
+depends 'ls_sql_server'
+depends 'win_cluster'
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
