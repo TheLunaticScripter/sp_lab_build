@@ -4,7 +4,7 @@ maintainer_email 'you@example.com'
 license 'All Rights Reserved'
 description 'Installs/Configures sp_lab_build'
 long_description 'Installs/Configures sp_lab_build'
-version '0.8.1'
+version '0.9.0'
 chef_version '>= 12.1' if respond_to?(:chef_version)
 
 depends 'win_ad'
